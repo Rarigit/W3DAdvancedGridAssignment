@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: bisque;
+}
+
+img{
+    height: 175px;
+}
+
+#gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: min-content;
+}
+
+.post{
+    display: grid;
+    border: 2px solid yellowgreen;
+    justify-items: center;
+    align-items: center;
+    /*grid-auto-rows: 400px*/
+}
+
+p{
+    text-align: center;
+    margin: 10%;
+    font-style: italic;
+    font-size: 16px;
+}
